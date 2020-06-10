@@ -1,0 +1,15 @@
+[package]
+name = "dump_font"
+version = "0.1.0"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+stb_truetype = "0.3.1"
+structopt = "0.3.14"
+anyhow = "1.0.31"
+serde_json = "1.0.55"
+serde = { version = "1.0.111", features = ["derive"] }
+ttf-parser = "0.6.1"
